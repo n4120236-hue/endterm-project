@@ -1,4 +1,17 @@
-package main.java.com.restaurant.dto;
+package java.com.restaurant.dto;
 
 public class MenuItemDTO {
+    private String name;
+    private double price;
+
+    public MenuItemDTO() {}
+    public MenuItemDTO(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+    public double getPrice() { return price; }
+    public void setPrice(double price) { this.price = price; }
 }
